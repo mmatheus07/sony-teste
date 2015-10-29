@@ -1,0 +1,46 @@
+header {
+  background-color: #000000;
+  padding: 23px; }
+
+img.cellphone {
+  max-width: 100%; }
+
+span.bold {
+  font-weight: 600; }
+
+img.carrossel {
+  height: 60px; }
+
+.bx-wrapper {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 5px solid #fff;
+  background: #fff; }
+
+.opcoes-de-cor {
+  margin-right: 15px; }
+  .opcoes-de-cor img {
+    padding: 6px;
+    border: 1px solid transparent; }
+  .opcoes-de-cor img.focused {
+    background-image: linear-gradient(#ffffff, #ececec 0%, #ffffff 0%, #ffffff 0%, #ececec 100%);
+    background-color: #ededed;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-color: #bfbfbf; }
+
+@media screen and (max-width: 991px) {
+  .center {
+    text-align: center; }
+  div.opcoes-de-cor {
+    text-align: center;
+  }
+
+   }
+
+@media screen and (min-width: 992px) {
+  .bx-controls-direction {
+    display: none; } }

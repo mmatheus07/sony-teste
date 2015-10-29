@@ -3,14 +3,49 @@
     <title>Sony | Teste</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
     <!-- jQuery library (served from Google) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- bxSlider Javascript file -->
-    <script src="/lib/jquery.bxslider/jquery.bxslider.min.js"></script>
+    <script src="lib/jquery-bxslider/jquery.bxslider.min.js"></script>
     <!-- bxSlider CSS file -->
-    <link href="/lib/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link href="lib/jquery-bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <script src="js/script.js"></script>
   </head>
   <body>
+    <header>
+      <div class="container">
+        <img src="img/h1.gif" />
+      </div><!--.container-->
+    </header>
+    <div class="container">
+      <h3 class="center"><a href="#"><span class="bold">Xperia™ Z3 Compact</span></a></h3>
+    </div><!--.container-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-push-6">
+          <ul class="bxslider">
+            <li><img data-celular="celular1.jpg" class="cellphone" /></li>
+            <li><img data-celular="celular2.jpg" class="cellphone" /></li>
+            <li><img data-celular="celular3.jpg" class="cellphone" /></li>
+            <li><img data-celular="celular4.jpg" class="cellphone" /></li>
+          </ul>
+          <div id="bx-pager" class="text-center">
+            <a data-slide-index="0" href=""><img data-celular="celular1.jpg" class="carrossel" /></a>
+            <a data-slide-index="1" href=""><img data-celular="celular2.jpg" class="carrossel" /></a>
+            <a data-slide-index="2" href=""><img data-celular="celular3.jpg" class="carrossel" /></a>
+            <a data-slide-index="3" href=""><img data-celular="celular4.jpg" class="carrossel" /></a>
+          </div>
+        </div>
+        <div class="col-md-6 col-md-pull-6">
+          <h3 class="center"><span class="bold">Exija o excelente em um smartphone compacto</span></h3>
+          <p class="center">Algo compacto é bom. Um smartphone compacto com desempenho impecável é simplesmente excelente.</p>
+          <div class="opcoes-de-cor">
+            <img src="img/whiteicon.png" data-cor="branco" />
+            <img src="img/blackicon.png" data-cor="preto" />
+          </div><!--.icons-->
+        </div>
+      </div><!--.row-->
+    </div><!--.container-->
   </body>
 </html>
